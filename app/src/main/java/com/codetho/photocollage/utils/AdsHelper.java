@@ -14,10 +14,10 @@ import com.google.android.gms.ads.MobileAds;
  * Created by admin on 5/24/2016.
  */
 public class AdsHelper {
-    private static final String APP_ID = "ca-app-pub-4015988808950288~6361641251";
-    private static final String BANNER_ADS_ID = "ca-app-pub-4015988808950288/7838374452";
-    private static final String POPUP_ADS_ID = "ca-app-pub-4015988808950288/9315107654";
-    public static final String NATIVE_AD_ID = "ca-app-pub-4015988808950288/7323292459";
+    private static final String APP_ID = "ca-app-pub-";
+    private static final String BANNER_ADS_ID = "ca-app-pub-";
+    private static final String POPUP_ADS_ID = "ca-app-pub-";
+    public static final String NATIVE_AD_ID = "ca-app-pub-";
 
     public interface OnInterstitialAdListener {
         void onInterstitialAdLoaded();
