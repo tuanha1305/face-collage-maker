@@ -16,7 +16,7 @@ import dauroi.photoeditor.api.response.CheckShowingAdsResponse;
  */
 public class InterstitialAdCreator {
     public static final int MIN_CLICK_THRESHOLD = 5;
-    public static final String BANNER_AD_ID = "ca-app-pub-4015988808950288/7838374452";
+    public static final String BANNER_AD_ID = "";
     private int mClickedCount = 0;
     private int mStep = MIN_CLICK_THRESHOLD;
     private Context mContext;
@@ -26,7 +26,7 @@ public class InterstitialAdCreator {
         mContext = context;
         // Create the InterstitialAd and set the adUnitId.
         mGoogleInterstitialAd = new com.google.android.gms.ads.InterstitialAd(mContext);
-        mGoogleInterstitialAd.setAdUnitId("ca-app-pub-4015988808950288/9315107654");
+        mGoogleInterstitialAd.setAdUnitId("");
         mGoogleInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {
